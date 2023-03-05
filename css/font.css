@@ -1,2 +1,49 @@
 @charset "utf-8";
 
+@font-face {
+  font-family: "HancomMalangMalang";
+  font-style: normal;
+  font-weight: 700;
+  src: local(â€»),
+    url("/assets/font/HancomMalangMalang-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HancomMalangMalang";
+  font-style: normal;
+  font-weight: 400;
+  src: local(â€»),
+    url("/assets/font/HancomMalangMalang-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NotoSansCJKkr";
+  font-style: normal;
+  font-weight: 700;
+  src: local(â€»), url("/assets/font/NotoSansCJKkr-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "NotoSansCJKkr";
+  font-style: normal;
+  font-weight: 600;
+  src: local(â€»),
+    url("/assets/font/NotoSansCJKkr-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "NotoSansCJKkr";
+  font-style: normal;
+  font-weight: 400;
+  src: local(â€»),
+    url("/assets/font/NotoSansCJKkr-DemiLight.otf") format("opentype");
+}
+@font-face {
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 700;
+  src: local(â€»),
+    url("/assets/font/NanumBarunGothicBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 400;
+  src: local(â€»), url("/assets/font/NanumBarunGothic.ttf") format("truetype");
+}
