@@ -128,6 +128,69 @@ body {
   border-radius: 50vh;
   background-color: #3dc448;
 }
+.sub-menu {
+  /* display: none; */
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, 100%);
+  background-color: #f9f9f9;
+  border: solid 1px #e5e5e5;
+  border-radius: 12px;
+}
+.lang {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 150px;
+  transform: translateY(-50%);
+  z-index: 11;
+}
+.lang button {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  font-family: "NotoSansCJKkr";
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+  background: #fff;
+}
+.lang button::after {
+  margin-left: 5px;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: url("../assets/images/language.svg") no-repeat center/contain;
+}
+.menu-btn {
+  position: absolute;
+  top: 50%;
+  right: 80px;
+  transform: translateY(-50%);
+  width: 37px;
+  height: 26px;
+  z-index: 11;
+}
+.menu-btn button {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.menu-btn button::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url("../assets/images/menu_btn.svg") no-repeat center/contain;
+  background-color: #fff;
+}
 
 /* 비주얼 */
 .visual {
